@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO TS</title>
+
+</head>
+<body>
+<h1>Contacts</h1>
+<hr>
+<main>
+    <h2>Trouver un contact</h2>
+    <form action="#" id="searchContact">
+        <label for="info">contact information (id, firstname, lastname, age)</label>
+        <input type="text" id="info" name="info" required>
+        <button id="searchbtn">rechercher</button>
+    </form>
+
+    <h2>Ajouter un contact</h2>
+    <form action="#" id="addContact">
+        <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lastname" name="lastname" required>
+        </div>
+        <div>
+
+            <label for="firstname">Firstname</label>
+            <input type="text" id="firstname" name="firstname" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" required>
+        </div>
+        <div>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <div>
+
+            <label for="phoneNumber">Phonenumber</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <div id="submitBtn">
+            <button>Ajouter</button>
+        </div>
+    </form>
+
+    <table id="contactList">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>First Name</td>
+            <td>Email</td>
+            <td>Phone number</td>
+            <td>Action</td>
+        </tr>
+    </table>
+</main>
+</body>
+<script src="assets/js/index.js" type="module"></script>
+</html>
