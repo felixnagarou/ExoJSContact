@@ -15,16 +15,16 @@ class Contact {
         this._phoneNumber = phoneNumber;
     }
     get id() {
-        return this.id;
+        return this._id;
     }
     get age() {
-        return this.age;
+        return this._age;
     }
     get lastname() {
-        return this.lastname;
+        return this._lastname;
     }
     get firstname() {
-        return this.firstname;
+        return this._firstname;
     }
     set age(a) {
         if (a > 0) {
